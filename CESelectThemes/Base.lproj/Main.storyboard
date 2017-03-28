@@ -4,15 +4,15 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ywA-8i-EgV">
             <objects>
-                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1Zz-s4-0Rt" customClass="ViewController" customModule="CEScrollMenue" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1Zz-s4-0Rt" customClass="ViewController" customModule="CESelectThemes" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="D3S-cq-t3t"/>
                         <viewControllerLayoutGuide type="bottom" id="eG5-tS-wag"/>
@@ -21,16 +21,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVi-Nv-fZa">
-                                <rect key="frame" x="16" y="72" width="129" height="138"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="showSelectTheme"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wVi-Nv-fZa">
+                                <rect key="frame" x="40" y="133" width="296" height="138"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="138" id="1LA-Rg-ARN"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Show Theme Select">
+                                            <attributes>
+                                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <font key="NSFont" size="24" name="MarkerFelt-Thin"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                                 <connections>
                                     <action selector="tapButton:" destination="1Zz-s4-0Rt" eventType="touchUpInside" id="mwO-sm-PXg"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wVi-Nv-fZa" firstAttribute="top" secondItem="D3S-cq-t3t" secondAttribute="bottom" constant="69" id="6aZ-kT-l8x"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wVi-Nv-fZa" secondAttribute="trailing" constant="23" id="Z0o-3I-9ug"/>
+                            <constraint firstItem="wVi-Nv-fZa" firstAttribute="leading" secondItem="4d9-Am-f00" secondAttribute="leadingMargin" constant="24" id="wia-uf-K2U"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="4wb-2L-eJX"/>
                 </viewController>
