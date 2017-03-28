@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4A5AEFE1E8A6D0D00DFDF2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AEFD1E8A6D0D00DFDF2A /* AppDelegate.swift */; };
+		F4A5AF001E8A6D0D00DFDF2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AEFF1E8A6D0D00DFDF2A /* ViewController.swift */; };
+		F4A5AF031E8A6D0D00DFDF2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A5AF011E8A6D0D00DFDF2A /* Main.storyboard */; };
+		F4A5AF051E8A6D0D00DFDF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A5AF041E8A6D0D00DFDF2A /* Assets.xcassets */; };
+		F4A5AF081E8A6D0D00DFDF2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A5AF061E8A6D0D00DFDF2A /* LaunchScreen.storyboard */; };
+		F4A5AF201E8A6DD400DFDF2A /* CESelectThemeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AF151E8A6DD400DFDF2A /* CESelectThemeController.swift */; };
+		F4A5AF211E8A6DD400DFDF2A /* CECloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AF171E8A6DD400DFDF2A /* CECloseButton.swift */; };
+		F4A5AF221E8A6DD400DFDF2A /* CEFirstHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AF181E8A6DD400DFDF2A /* CEFirstHeaderCollectionReusableView.swift */; };
+		F4A5AF231E8A6DD400DFDF2A /* CEHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AF191E8A6DD400DFDF2A /* CEHeaderCollectionReusableView.swift */; };
+		F4A5AF241E8A6DD400DFDF2A /* CEThemeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AF1A1E8A6DD400DFDF2A /* CEThemeCollectionView.swift */; };
+		F4A5AF251E8A6DD400DFDF2A /* CEThemeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AF1B1E8A6DD400DFDF2A /* CEThemeCollectionViewCell.swift */; };
+		F4A5AF261E8A6DD400DFDF2A /* CEThemeEditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AF1C1E8A6DD400DFDF2A /* CEThemeEditButton.swift */; };
+		F4A5AF271E8A6DD400DFDF2A /* CEThemeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AF1D1E8A6DD400DFDF2A /* CEThemeLabel.swift */; };
+		F4A5AF281E8A6DD400DFDF2A /* CEThemeDataSourceProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AF1E1E8A6DD400DFDF2A /* CEThemeDataSourceProtocal.swift */; };
+		F4A5AF291E8A6DD400DFDF2A /* DataSourceTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AF1F1E8A6DD400DFDF2A /* DataSourceTools.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4A5AEFA1E8A6D0D00DFDF2A /* CESelectThemes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CESelectThemes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A5AEFD1E8A6D0D00DFDF2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4A5AEFF1E8A6D0D00DFDF2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4A5AF021E8A6D0D00DFDF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4A5AF041E8A6D0D00DFDF2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4A5AF071E8A6D0D00DFDF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4A5AF091E8A6D0D00DFDF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4A5AF151E8A6DD400DFDF2A /* CESelectThemeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CESelectThemeController.swift; sourceTree = "<group>"; };
+		F4A5AF171E8A6DD400DFDF2A /* CECloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CECloseButton.swift; sourceTree = "<group>"; };
+		F4A5AF181E8A6DD400DFDF2A /* CEFirstHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEFirstHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		F4A5AF191E8A6DD400DFDF2A /* CEHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		F4A5AF1A1E8A6DD400DFDF2A /* CEThemeCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEThemeCollectionView.swift; sourceTree = "<group>"; };
+		F4A5AF1B1E8A6DD400DFDF2A /* CEThemeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEThemeCollectionViewCell.swift; sourceTree = "<group>"; };
+		F4A5AF1C1E8A6DD400DFDF2A /* CEThemeEditButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEThemeEditButton.swift; sourceTree = "<group>"; };
+		F4A5AF1D1E8A6DD400DFDF2A /* CEThemeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEThemeLabel.swift; sourceTree = "<group>"; };
+		F4A5AF1E1E8A6DD400DFDF2A /* CEThemeDataSourceProtocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEThemeDataSourceProtocal.swift; sourceTree = "<group>"; };
+		F4A5AF1F1E8A6DD400DFDF2A /* DataSourceTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceTools.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4A5AEF71E8A6D0D00DFDF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4A5AEF11E8A6D0D00DFDF2A = {
+			isa = PBXGroup;
+			children = (
+				F4A5AEFC1E8A6D0D00DFDF2A /* CESelectThemes */,
+				F4A5AEFB1E8A6D0D00DFDF2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4A5AEFB1E8A6D0D00DFDF2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4A5AEFA1E8A6D0D00DFDF2A /* CESelectThemes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4A5AEFC1E8A6D0D00DFDF2A /* CESelectThemes */ = {
+			isa = PBXGroup;
+			children = (
+				F4A5AF141E8A6DD400DFDF2A /* CESelectTheme */,
+				F4A5AEFD1E8A6D0D00DFDF2A /* AppDelegate.swift */,
+				F4A5AEFF1E8A6D0D00DFDF2A /* ViewController.swift */,
+				F4A5AF011E8A6D0D00DFDF2A /* Main.storyboard */,
+				F4A5AF041E8A6D0D00DFDF2A /* Assets.xcassets */,
+				F4A5AF061E8A6D0D00DFDF2A /* LaunchScreen.storyboard */,
+				F4A5AF091E8A6D0D00DFDF2A /* Info.plist */,
+			);
+			path = CESelectThemes;
+			sourceTree = "<group>";
+		};
+		F4A5AF141E8A6DD400DFDF2A /* CESelectTheme */ = {
+			isa = PBXGroup;
+			children = (
+				F4A5AF151E8A6DD400DFDF2A /* CESelectThemeController.swift */,
+				F4A5AF161E8A6DD400DFDF2A /* CESelectThemeViews */,
+				F4A5AF1E1E8A6DD400DFDF2A /* CEThemeDataSourceProtocal.swift */,
+				F4A5AF1F1E8A6DD400DFDF2A /* DataSourceTools.swift */,
+			);
+			path = CESelectTheme;
+			sourceTree = "<group>";
+		};
+		F4A5AF161E8A6DD400DFDF2A /* CESelectThemeViews */ = {
+			isa = PBXGroup;
+			children = (
+				F4A5AF171E8A6DD400DFDF2A /* CECloseButton.swift */,
+				F4A5AF181E8A6DD400DFDF2A /* CEFirstHeaderCollectionReusableView.swift */,
+				F4A5AF191E8A6DD400DFDF2A /* CEHeaderCollectionReusableView.swift */,
+				F4A5AF1A1E8A6DD400DFDF2A /* CEThemeCollectionView.swift */,
+				F4A5AF1B1E8A6DD400DFDF2A /* CEThemeCollectionViewCell.swift */,
+				F4A5AF1C1E8A6DD400DFDF2A /* CEThemeEditButton.swift */,
+				F4A5AF1D1E8A6DD400DFDF2A /* CEThemeLabel.swift */,
+			);
+			path = CESelectThemeViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4A5AEF91E8A6D0D00DFDF2A /* CESelectThemes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A5AF0C1E8A6D0D00DFDF2A /* Build configuration list for PBXNativeTarget "CESelectThemes" */;
+			buildPhases = (
+				F4A5AEF61E8A6D0D00DFDF2A /* Sources */,
+				F4A5AEF71E8A6D0D00DFDF2A /* Frameworks */,
+				F4A5AEF81E8A6D0D00DFDF2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CESelectThemes;
+			productName = CESelectThemes;
+			productReference = F4A5AEFA1E8A6D0D00DFDF2A /* CESelectThemes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4A5AEF21E8A6D0D00DFDF2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ZeluLi;
+				TargetAttributes = {
+					F4A5AEF91E8A6D0D00DFDF2A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AWN3A347S4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F4A5AEF51E8A6D0D00DFDF2A /* Build configuration list for PBXProject "CESelectThemes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4A5AEF11E8A6D0D00DFDF2A;
+			productRefGroup = F4A5AEFB1E8A6D0D00DFDF2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4A5AEF91E8A6D0D00DFDF2A /* CESelectThemes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4A5AEF81E8A6D0D00DFDF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A5AF081E8A6D0D00DFDF2A /* LaunchScreen.storyboard in Resources */,
+				F4A5AF051E8A6D0D00DFDF2A /* Assets.xcassets in Resources */,
+				F4A5AF031E8A6D0D00DFDF2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4A5AEF61E8A6D0D00DFDF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A5AF211E8A6DD400DFDF2A /* CECloseButton.swift in Sources */,
+				F4A5AF001E8A6D0D00DFDF2A /* ViewController.swift in Sources */,
+				F4A5AEFE1E8A6D0D00DFDF2A /* AppDelegate.swift in Sources */,
+				F4A5AF201E8A6DD400DFDF2A /* CESelectThemeController.swift in Sources */,
+				F4A5AF291E8A6DD400DFDF2A /* DataSourceTools.swift in Sources */,
+				F4A5AF251E8A6DD400DFDF2A /* CEThemeCollectionViewCell.swift in Sources */,
+				F4A5AF261E8A6DD400DFDF2A /* CEThemeEditButton.swift in Sources */,
+				F4A5AF271E8A6DD400DFDF2A /* CEThemeLabel.swift in Sources */,
+				F4A5AF281E8A6DD400DFDF2A /* CEThemeDataSourceProtocal.swift in Sources */,
+				F4A5AF231E8A6DD400DFDF2A /* CEHeaderCollectionReusableView.swift in Sources */,
+				F4A5AF241E8A6DD400DFDF2A /* CEThemeCollectionView.swift in Sources */,
+				F4A5AF221E8A6DD400DFDF2A /* CEFirstHeaderCollectionReusableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4A5AF011E8A6D0D00DFDF2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4A5AF021E8A6D0D00DFDF2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4A5AF061E8A6D0D00DFDF2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4A5AF071E8A6D0D00DFDF2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4A5AF0A1E8A6D0D00DFDF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4A5AF0B1E8A6D0D00DFDF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4A5AF0D1E8A6D0D00DFDF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AWN3A347S4;
+				INFOPLIST_FILE = CESelectThemes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZeluLi.CESelectThemes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F4A5AF0E1E8A6D0D00DFDF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AWN3A347S4;
+				INFOPLIST_FILE = CESelectThemes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZeluLi.CESelectThemes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4A5AEF51E8A6D0D00DFDF2A /* Build configuration list for PBXProject "CESelectThemes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A5AF0A1E8A6D0D00DFDF2A /* Debug */,
+				F4A5AF0B1E8A6D0D00DFDF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4A5AF0C1E8A6D0D00DFDF2A /* Build configuration list for PBXNativeTarget "CESelectThemes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A5AF0D1E8A6D0D00DFDF2A /* Debug */,
+				F4A5AF0E1E8A6D0D00DFDF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4A5AEF21E8A6D0D00DFDF2A /* Project object */;
+}
