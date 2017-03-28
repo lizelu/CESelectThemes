@@ -46,7 +46,7 @@ class CEThemeCollectionView: UICollectionView, UICollectionViewDelegate, UIColle
     
     func addGestureRecognizer() {
         gestureRecognizer = UILongPressGestureRecognizer(target: self, action: #selector(longPrese(gestureRecognizer:)))
-        gestureRecognizer.minimumPressDuration = 1
+        gestureRecognizer.minimumPressDuration = 0.5
         self.addGestureRecognizer(gestureRecognizer)
         self.isEnableEdit(isEditor: false)
     }
@@ -100,7 +100,7 @@ class CEThemeCollectionView: UICollectionView, UICollectionViewDelegate, UIColle
         self.moveView.center = point
         self.moveView.alpha = 0.8
         self.addSubview(self.moveView)
-        UIView.animate(withDuration: 0.7, animations: {
+        UIView.animate(withDuration: 0.3, animations: {
             self.moveView.frame.size = self.bigCellSize
         })
        

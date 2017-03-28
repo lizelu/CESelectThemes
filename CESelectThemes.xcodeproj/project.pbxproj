@@ -88,10 +88,10 @@
 		F4A5AF141E8A6DD400DFDF2A /* CESelectTheme */ = {
 			isa = PBXGroup;
 			children = (
-				F4A5AF151E8A6DD400DFDF2A /* CESelectThemeController.swift */,
 				F4A5AF161E8A6DD400DFDF2A /* CESelectThemeViews */,
-				F4A5AF1E1E8A6DD400DFDF2A /* CEThemeDataSourceProtocal.swift */,
 				F4A5AF1F1E8A6DD400DFDF2A /* DataSourceTools.swift */,
+				F4A5AF1E1E8A6DD400DFDF2A /* CEThemeDataSourceProtocal.swift */,
+				F4A5AF151E8A6DD400DFDF2A /* CESelectThemeController.swift */,
 			);
 			path = CESelectTheme;
 			sourceTree = "<group>";
@@ -358,6 +358,7 @@
 				F4A5AF0E1E8A6D0D00DFDF2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
