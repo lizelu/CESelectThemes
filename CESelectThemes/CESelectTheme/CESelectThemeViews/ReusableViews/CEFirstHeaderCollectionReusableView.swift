@@ -30,7 +30,7 @@ class CEFirstHeaderCollectionReusableView: CEHeaderCollectionReusableView {
     }
     
     func addEditButton() {
-        self.editButton = CEThemeEditButton(frame: CGRect(x: self.frame.width - 55, y: 30, width: 40, height: 25))
+        self.editButton = CEThemeEditButton(frame: CGRect(x: self.frame.width - 55, y: 28, width: 40, height: 25))
         self.editButton.addTarget(self, action: #selector(tapEditButton(sender:)), for: .touchUpInside)
         self.addSubview(self.editButton)
     }

@@ -7,24 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F47822701E8B483500758AB8 /* CEFirstHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47822691E8B483500758AB8 /* CEFirstHeaderCollectionReusableView.swift */; };
+		F47822711E8B483500758AB8 /* CEHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478226A1E8B483500758AB8 /* CEHeaderCollectionReusableView.swift */; };
+		F47822721E8B483500758AB8 /* CEThemeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478226B1E8B483500758AB8 /* CEThemeCollectionViewCell.swift */; };
+		F47822731E8B483500758AB8 /* CECloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478226D1E8B483500758AB8 /* CECloseButton.swift */; };
+		F47822741E8B483500758AB8 /* CEThemeEditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478226E1E8B483500758AB8 /* CEThemeEditButton.swift */; };
+		F47822751E8B483500758AB8 /* CEThemeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478226F1E8B483500758AB8 /* CEThemeLabel.swift */; };
 		F4A5AEFE1E8A6D0D00DFDF2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AEFD1E8A6D0D00DFDF2A /* AppDelegate.swift */; };
 		F4A5AF001E8A6D0D00DFDF2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AEFF1E8A6D0D00DFDF2A /* ViewController.swift */; };
 		F4A5AF031E8A6D0D00DFDF2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A5AF011E8A6D0D00DFDF2A /* Main.storyboard */; };
 		F4A5AF051E8A6D0D00DFDF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A5AF041E8A6D0D00DFDF2A /* Assets.xcassets */; };
 		F4A5AF081E8A6D0D00DFDF2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A5AF061E8A6D0D00DFDF2A /* LaunchScreen.storyboard */; };
 		F4A5AF201E8A6DD400DFDF2A /* CESelectThemeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AF151E8A6DD400DFDF2A /* CESelectThemeController.swift */; };
-		F4A5AF211E8A6DD400DFDF2A /* CECloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AF171E8A6DD400DFDF2A /* CECloseButton.swift */; };
-		F4A5AF221E8A6DD400DFDF2A /* CEFirstHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AF181E8A6DD400DFDF2A /* CEFirstHeaderCollectionReusableView.swift */; };
-		F4A5AF231E8A6DD400DFDF2A /* CEHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AF191E8A6DD400DFDF2A /* CEHeaderCollectionReusableView.swift */; };
 		F4A5AF241E8A6DD400DFDF2A /* CEThemeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AF1A1E8A6DD400DFDF2A /* CEThemeCollectionView.swift */; };
-		F4A5AF251E8A6DD400DFDF2A /* CEThemeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AF1B1E8A6DD400DFDF2A /* CEThemeCollectionViewCell.swift */; };
-		F4A5AF261E8A6DD400DFDF2A /* CEThemeEditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AF1C1E8A6DD400DFDF2A /* CEThemeEditButton.swift */; };
-		F4A5AF271E8A6DD400DFDF2A /* CEThemeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AF1D1E8A6DD400DFDF2A /* CEThemeLabel.swift */; };
 		F4A5AF281E8A6DD400DFDF2A /* CEThemeDataSourceProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AF1E1E8A6DD400DFDF2A /* CEThemeDataSourceProtocal.swift */; };
 		F4A5AF291E8A6DD400DFDF2A /* DataSourceTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5AF1F1E8A6DD400DFDF2A /* DataSourceTools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F47822691E8B483500758AB8 /* CEFirstHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEFirstHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		F478226A1E8B483500758AB8 /* CEHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		F478226B1E8B483500758AB8 /* CEThemeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEThemeCollectionViewCell.swift; sourceTree = "<group>"; };
+		F478226D1E8B483500758AB8 /* CECloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CECloseButton.swift; sourceTree = "<group>"; };
+		F478226E1E8B483500758AB8 /* CEThemeEditButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEThemeEditButton.swift; sourceTree = "<group>"; };
+		F478226F1E8B483500758AB8 /* CEThemeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEThemeLabel.swift; sourceTree = "<group>"; };
 		F4A5AEFA1E8A6D0D00DFDF2A /* CESelectThemes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CESelectThemes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A5AEFD1E8A6D0D00DFDF2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4A5AEFF1E8A6D0D00DFDF2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,13 +39,7 @@
 		F4A5AF071E8A6D0D00DFDF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4A5AF091E8A6D0D00DFDF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4A5AF151E8A6DD400DFDF2A /* CESelectThemeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CESelectThemeController.swift; sourceTree = "<group>"; };
-		F4A5AF171E8A6DD400DFDF2A /* CECloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CECloseButton.swift; sourceTree = "<group>"; };
-		F4A5AF181E8A6DD400DFDF2A /* CEFirstHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEFirstHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
-		F4A5AF191E8A6DD400DFDF2A /* CEHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 		F4A5AF1A1E8A6DD400DFDF2A /* CEThemeCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEThemeCollectionView.swift; sourceTree = "<group>"; };
-		F4A5AF1B1E8A6DD400DFDF2A /* CEThemeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEThemeCollectionViewCell.swift; sourceTree = "<group>"; };
-		F4A5AF1C1E8A6DD400DFDF2A /* CEThemeEditButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEThemeEditButton.swift; sourceTree = "<group>"; };
-		F4A5AF1D1E8A6DD400DFDF2A /* CEThemeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEThemeLabel.swift; sourceTree = "<group>"; };
 		F4A5AF1E1E8A6DD400DFDF2A /* CEThemeDataSourceProtocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEThemeDataSourceProtocal.swift; sourceTree = "<group>"; };
 		F4A5AF1F1E8A6DD400DFDF2A /* DataSourceTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceTools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,6 +55,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F47822681E8B483500758AB8 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				F47822691E8B483500758AB8 /* CEFirstHeaderCollectionReusableView.swift */,
+				F478226A1E8B483500758AB8 /* CEHeaderCollectionReusableView.swift */,
+				F478226B1E8B483500758AB8 /* CEThemeCollectionViewCell.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		F478226C1E8B483500758AB8 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				F478226D1E8B483500758AB8 /* CECloseButton.swift */,
+				F478226E1E8B483500758AB8 /* CEThemeEditButton.swift */,
+				F478226F1E8B483500758AB8 /* CEThemeLabel.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
 		F4A5AEF11E8A6D0D00DFDF2A = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +119,9 @@
 		F4A5AF161E8A6DD400DFDF2A /* CESelectThemeViews */ = {
 			isa = PBXGroup;
 			children = (
-				F4A5AF171E8A6DD400DFDF2A /* CECloseButton.swift */,
-				F4A5AF181E8A6DD400DFDF2A /* CEFirstHeaderCollectionReusableView.swift */,
-				F4A5AF191E8A6DD400DFDF2A /* CEHeaderCollectionReusableView.swift */,
+				F47822681E8B483500758AB8 /* ReusableViews */,
+				F478226C1E8B483500758AB8 /* SubViews */,
 				F4A5AF1A1E8A6DD400DFDF2A /* CEThemeCollectionView.swift */,
-				F4A5AF1B1E8A6DD400DFDF2A /* CEThemeCollectionViewCell.swift */,
-				F4A5AF1C1E8A6DD400DFDF2A /* CEThemeEditButton.swift */,
-				F4A5AF1D1E8A6DD400DFDF2A /* CEThemeLabel.swift */,
 			);
 			path = CESelectThemeViews;
 			sourceTree = "<group>";
@@ -183,18 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4A5AF211E8A6DD400DFDF2A /* CECloseButton.swift in Sources */,
 				F4A5AF001E8A6D0D00DFDF2A /* ViewController.swift in Sources */,
 				F4A5AEFE1E8A6D0D00DFDF2A /* AppDelegate.swift in Sources */,
+				F47822731E8B483500758AB8 /* CECloseButton.swift in Sources */,
+				F47822721E8B483500758AB8 /* CEThemeCollectionViewCell.swift in Sources */,
+				F47822751E8B483500758AB8 /* CEThemeLabel.swift in Sources */,
+				F47822711E8B483500758AB8 /* CEHeaderCollectionReusableView.swift in Sources */,
+				F47822741E8B483500758AB8 /* CEThemeEditButton.swift in Sources */,
+				F47822701E8B483500758AB8 /* CEFirstHeaderCollectionReusableView.swift in Sources */,
 				F4A5AF201E8A6DD400DFDF2A /* CESelectThemeController.swift in Sources */,
 				F4A5AF291E8A6DD400DFDF2A /* DataSourceTools.swift in Sources */,
-				F4A5AF251E8A6DD400DFDF2A /* CEThemeCollectionViewCell.swift in Sources */,
-				F4A5AF261E8A6DD400DFDF2A /* CEThemeEditButton.swift in Sources */,
-				F4A5AF271E8A6DD400DFDF2A /* CEThemeLabel.swift in Sources */,
 				F4A5AF281E8A6DD400DFDF2A /* CEThemeDataSourceProtocal.swift in Sources */,
-				F4A5AF231E8A6DD400DFDF2A /* CEHeaderCollectionReusableView.swift in Sources */,
 				F4A5AF241E8A6DD400DFDF2A /* CEThemeCollectionView.swift in Sources */,
-				F4A5AF221E8A6DD400DFDF2A /* CEFirstHeaderCollectionReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
