@@ -11,6 +11,7 @@ import UIKit
 let SCREEN_WIDTH = UIScreen.main.bounds.width
 let SCREEN_HEIGHT = UIScreen.main.bounds.height
 let SelectThemeBackgroundColor = UIColor(red: 235/255, green: 235/255, blue: 235/255, alpha: 1)
+
 typealias UpdataDataSourceClosure = (Array<Array<CEThemeDataSourceProtocal>>!) -> Void
 
 class CESelectThemeController: UIViewController, UICollectionViewDataSource{
@@ -19,7 +20,6 @@ class CESelectThemeController: UIViewController, UICollectionViewDataSource{
     var dataSource: Array<Array<CEThemeDataSourceProtocal>>!
     var isEdit: Bool = false
     var dataSourceClosure: UpdataDataSourceClosure!
-    
     
     var themeCollectionViewWidth: CGFloat {
         get {
@@ -32,6 +32,7 @@ class CESelectThemeController: UIViewController, UICollectionViewDataSource{
             return SCREEN_HEIGHT - 30
         }
     }
+    
     init(dataSource: Array<Array<CEThemeDataSourceProtocal>>) {
         super.init(nibName: nil, bundle: nil)
         self.dataSource = dataSource
@@ -98,6 +99,7 @@ class CESelectThemeController: UIViewController, UICollectionViewDataSource{
     
     
     // MARK: - Event Response
+    
     func tapCloseButton(sender: UIButton) {
         if self.dataSourceClosure != nil {
             self.dataSourceClosure(self.dataSource)
@@ -121,6 +123,7 @@ class CESelectThemeController: UIViewController, UICollectionViewDataSource{
 
     
     // MARK: - private method
+    
     func fetchCEFirstHeaderCollectionReusableView(indexPath: IndexPath, kind: String) -> CEHeaderCollectionReusableView {
         let headerView: CEFirstHeaderCollectionReusableView = self.themeCollectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: firstSectionheaderReuseIdentifier, for: indexPath) as! CEFirstHeaderCollectionReusableView
         headerView.editButton.isSelected = self.isEdit
@@ -140,9 +143,6 @@ class CESelectThemeController: UIViewController, UICollectionViewDataSource{
         headerView.titleLabel.text = "推荐频道"
         return headerView
     }
-
-    
-    
     
     func fetchCEThemeCollectionViewCell(indexPath: IndexPath ) -> CEThemeCollectionViewCell {
         let cell: CEThemeCollectionViewCell = self.themeCollectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! CEThemeCollectionViewCell
@@ -180,5 +180,6 @@ class CESelectThemeController: UIViewController, UICollectionViewDataSource{
         print("CESelectThemeController-deinit")
     }
 
+    
 }
 

@@ -21,7 +21,6 @@ class CEThemeCollectionView: UICollectionView, UICollectionViewDelegate, UIColle
     let bigCellSize = CGSize(width: 110, height: 50)
     let minimumLineAndInteritemSpacingForSection: CGFloat = 5
     
-    
     override init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
         super.init(frame: frame, collectionViewLayout: layout)
         self.config()
@@ -103,7 +102,6 @@ class CEThemeCollectionView: UICollectionView, UICollectionViewDelegate, UIColle
         UIView.animate(withDuration: 0.3, animations: {
             self.moveView.frame.size = self.bigCellSize
         })
-       
     }
     
     /// 长按后进行移动
@@ -137,7 +135,6 @@ class CEThemeCollectionView: UICollectionView, UICollectionViewDelegate, UIColle
         return self.normalCellSize
     }
     
-    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return minimumLineAndInteritemSpacingForSection
     }
@@ -161,4 +158,6 @@ class CEThemeCollectionView: UICollectionView, UICollectionViewDelegate, UIColle
     deinit {
         print("CEThemeCollectionView-deinit")
     }
+    
+    
 }
