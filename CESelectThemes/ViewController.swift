@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func tapButton(_ sender: Any) {
+        
         let selectThemeController = CESelectThemeController(dataSource: self.dataSource)
         
         //获取更新后的DataSource
@@ -32,6 +33,5 @@ class ViewController: UIViewController {
         
         self.present(selectThemeController, animated: true) {}
     }
-    
     
 }

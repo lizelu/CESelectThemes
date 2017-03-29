@@ -78,10 +78,10 @@ class CEThemeCollectionView: UICollectionView, UICollectionViewDelegate, UIColle
     ///
     /// - Parameter point: 长按的开始的点
     func longPressBegin(point: CGPoint) {
+        
         guard let tapIndexPath = self.indexPathForItem(at: point) else {
             return
         }
-        
         //只有第一个Section才可以进行拖动排序
         if tapIndexPath.section != 0 {
             return
@@ -117,7 +117,9 @@ class CEThemeCollectionView: UICollectionView, UICollectionViewDelegate, UIColle
     
     /// 长按结束
     func longPressEnd() {
+        
         self.endInteractiveMovement()
+        
         if self.moveView != nil {
             self.moveView.removeFromSuperview()
         }

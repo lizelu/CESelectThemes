@@ -69,18 +69,22 @@ class CESelectThemeController: UIViewController, UICollectionViewDataSource{
     
     // Mark: - UICollectionViewDataSource
     
+    ///返回Section的个数
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return self.dataSource.count
     }
     
+    ///返回每个Section中Item的个数
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.dataSource[section].count
     }
     
+    ///返回相应的Cell
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         return fetchCEThemeCollectionViewCell(indexPath: indexPath)
     }
 
+    ///返回Section的HeaderView
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         if indexPath.section == 0 {
             return fetchCEFirstHeaderCollectionReusableView(indexPath: indexPath, kind: kind)
@@ -88,10 +92,12 @@ class CESelectThemeController: UIViewController, UICollectionViewDataSource{
         return fetchCEHeaderCollectionReusableView(indexPath: indexPath, kind: kind)
     }
     
+    ///该indexPath所对应的Cell是否可移动
     func collectionView(_ collectionView: UICollectionView, canMoveItemAt indexPath: IndexPath) -> Bool {
         return true
     }
     
+    ///移动后更新数据源
     func collectionView(_ collectionView: UICollectionView, moveItemAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
         self.updateDataSource(at: sourceIndexPath, to: destinationIndexPath)
         self.themeCollectionView.reloadData()
