@@ -11,13 +11,14 @@ import UIKit
 let SCREEN_WIDTH = UIScreen.main.bounds.width
 let SCREEN_HEIGHT = UIScreen.main.bounds.height
 let SelectThemeBackgroundColor = UIColor(red: 235/255, green: 235/255, blue: 235/255, alpha: 1)
+typealias DataSourceType = Array<Array<CEThemeDataSourceProtocal>>
 
-typealias UpdataDataSourceClosure = (Array<Array<CEThemeDataSourceProtocal>>!) -> Void
+typealias UpdataDataSourceClosure = (DataSourceType!) -> Void
 
 class CESelectThemeController: UIViewController, UICollectionViewDataSource{
     
     var themeCollectionView: CEThemeCollectionView!
-    var dataSource: Array<Array<CEThemeDataSourceProtocal>>!
+    var dataSource: DataSourceType!
     var isEdit: Bool = false
     var dataSourceClosure: UpdataDataSourceClosure!
     
@@ -33,7 +34,7 @@ class CESelectThemeController: UIViewController, UICollectionViewDataSource{
         }
     }
     
-    init(dataSource: Array<Array<CEThemeDataSourceProtocal>>) {
+    init(dataSource: DataSourceType) {
         super.init(nibName: nil, bundle: nil)
         self.dataSource = dataSource
     }
@@ -173,6 +174,12 @@ class CESelectThemeController: UIViewController, UICollectionViewDataSource{
     
     //更新数据源
     func updateDataSource(at: IndexPath, to: IndexPath) {
+        if at.section == to.section {
+            let temp = self.dataSource[at.section][at.row]
+            self.dataSource[at.section][at.row] = self.dataSource[to.section][to.row]
+            self.dataSource[to.section][to.row] = temp
+            return
+        }
         let removeItem = self.dataSource[at.section].remove(at: at.row)
         self.dataSource[to.section].insert(removeItem, at: 0)
     }
